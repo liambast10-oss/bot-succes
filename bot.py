@@ -2,7 +2,11 @@ import discord
 from discord import app_commands
 from discord.ext import commands
 import json
-from config import TOKEN, GUILD_ID, ROLE_STAFF
+import os
+
+TOKEN = os.getenv("TOKEN")
+GUILD_ID = int(os.getenv("GUILD_ID"))
+ROLE_STAFF = os.getenv("ROLE_STAFF")
 
 intents = discord.Intents.default()
 intents.members = True
