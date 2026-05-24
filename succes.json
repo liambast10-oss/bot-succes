@@ -1,0 +1,19 @@
+{
+  "successes": {
+    "Premier diamant": {
+      "description": "Trouver ton premier diamant dans le monde",
+      "rarete": "commun"
+    },
+    "Explorateur": {
+      "description": "Explorer 5 biomes différents",
+      "rarete": "rare"
+    },
+    "Maître bâtisseur": {
+      "description": "Construire une base impressionnante",
+      "rarete": "épique"
+    }
+  },
+  "players": {
+    "649621742410530836": []
+  }
+}
